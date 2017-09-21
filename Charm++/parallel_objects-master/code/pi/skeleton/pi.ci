@@ -1,10 +1,17 @@
 mainmodule pi {
 
-	readonly CProxy_Master mainProxy;
+	readonly CProxy_Master mainProxy;	// Un proxy global
+
+	// 2 chares: 1 Master y 1 Worker: Parallel objects
+	// Al compilarlo, genera una class CBase_Master que encapsula 
+	// el objeto RTS (runTime system)
 
 	mainchare Master {
-		entry Master(CkArgMsg *m);
-		entry void addContribution(int numInside, int numTrials);
+
+		entry Master(CkArgMsg *m);      // Constructor
+
+		entry void addContribution(int numInside, int numTrials); // Entry method
+
 	};
   
 	chare Worker {

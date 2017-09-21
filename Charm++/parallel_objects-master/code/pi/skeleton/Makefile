@@ -1,5 +1,5 @@
 OPTS	 = -O3
-CHARMDIR = 
+CHARMDIR = /home/humberto/Escritorio/charm-6.8.0
 CHARMC	 = $(CHARMDIR)/bin/charmc $(OPTS)
 
 OBJS = pi.o

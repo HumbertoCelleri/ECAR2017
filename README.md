@@ -47,3 +47,44 @@ El orden de ejecución de las llamadas no están garantizadas, y no se pueden in
 Modelo BSP: Genera mucho stress en la red. (CUello de botella)
 Charm genera más objetos que procesadores (Sobredescomposición)
 
+PI:
+MAKEFILE, Poner el directorio donde esta charm
+.ci: 3 TO DO
+
+
+# CARLA 2017
+
+## Andrei Tchnernykh: Understanding uncertainty in Cloud Comp.
+Uncertainty: Long-term, retrospective, decision, stochastic.
+			Parameters, users,
+
+1. Model applications with communication: Graphos (CA-DAG;)
+Si es estático, enctonces hay algoritmos para modelar comunicación.
+
+2. Consolidación: Score function
+
+3. Runtime uncertainty
+algoritmos de Optimización .
+
+## SKA: Square kilometer array: Big Data.
+Vertical integration?
+2M lines.
+AANZ
+Globally distrib
+uted team.
+CSP; Central signal processor: 
+SDP: Science data processor: 
+
+Mecado comparativo? CSP, hay algo?
+Que necesitas?
+
+
+## Daniel Nemirosky: DLM: deep machine learning for heterogenues mapping of threads .
+
+## Energy Consuption predictions (Sergio Univ. Uruguay)
+
+
+
+
+
+
